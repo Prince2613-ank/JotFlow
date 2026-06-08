@@ -24,3 +24,15 @@ Pixabay API Error: SyntaxError: Unexpected token 'E', "[ERROR 400]"... is not va
   12 |   } catch (error) {
   13 |     console.error("Pixabay API Error:", error);
 ✦Aj WARN Arcjet will use 127.0.0.1 when missing public IP address in development mode
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. Please report the content of C:\Users\Lenovo\AppData\Local\Temp\next-panic-6d554efeda109e9c4676f00e6a9336a7.log, along with a description of what you were doing when the error occurred, to https://github.com/vercel/next.js/issues/new?template=1.bug_report.yml
+[Error [TurbopackInternalError]: Next.js package not found
+
+Debug info:
+- Execution of get_entrypoints_with_issues_operation failed
+- Execution of EntrypointsOperation::new failed
+- Execution of Project::entrypoints failed
+- Execution of AppProject::routes failed
+- Execution of directory_tree_to_entrypoints_internal failed
+- Execution of directory_tree_to_loader_tree failed
+- Execution of get_next_package failed
+- Next.js package not found]

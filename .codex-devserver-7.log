@@ -78,3 +78,4 @@ Creating turbopack project { dir: 'C:\\Users\\Lenovo\\JotFlow', testMode: true }
    Reload env: .env
  GET / 200 in 1511ms
  GET / 200 in 333ms
+[?25h
