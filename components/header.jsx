@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { PenBox, FolderOpen } from "lucide-react";
 import Image from "next/image";
-import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
 import UserMenu from "./user-menu";
 import { checkUser } from "@/lib/checkUser";
 
@@ -41,6 +41,9 @@ async function Header() {
             <SignInButton forceRedirectUrl="/dashboard">
               <Button variant="outline">Login</Button>
             </SignInButton>
+            <SignUpButton forceRedirectUrl="/dashboard">
+              <Button variant="journal">Sign Up</Button>
+            </SignUpButton>
           </SignedOut>
           <SignedIn>
             <UserMenu />

@@ -1,0 +1,26 @@
+✦Aj WARN Arcjet will use 127.0.0.1 when missing public IP address in development mode
+ ⨯ Error: User not found
+    at getCollections (file://C%3A/Users/Lenovo/JotFlow/actions/collection.js:18:10)
+    at async Dashboard (file://C%3A/Users/Lenovo/JotFlow/app/%28main%29/dashboard/page.jsx:7:22)
+  16 |
+  17 |   if (!user) {
+> 18 |     throw new Error("User not found");
+     |          ^
+  19 |   }
+  20 |
+  21 |   const collections = await db.collection.findMany({ {
+  digest: '1240336032'
+}
+✦Aj WARN Arcjet will use 127.0.0.1 when missing public IP address in development mode
+Pixabay API Error: SyntaxError: Unexpected token 'E', "[ERROR 400]"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at async getPixabayImage (file://C%3A/Users/Lenovo/JotFlow/actions/public.js:10:17)
+    at async createJournalEntry (file://C%3A/Users/Lenovo/JotFlow/actions/journal.js:55:25)
+   8 |       `https://pixabay.com/api/?q=${query}&key=${process.env.PIXABAY_API_KEY}&min_width=1280&min_height=720&image_type=illustration&category=feelings`
+   9 |     );
+> 10 |     const data = await res.json();
+     |                 ^
+  11 |     return data.hits[0]?.largeImageURL || null;
+  12 |   } catch (error) {
+  13 |     console.error("Pixabay API Error:", error);
+✦Aj WARN Arcjet will use 127.0.0.1 when missing public IP address in development mode

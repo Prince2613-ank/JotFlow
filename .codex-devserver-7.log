@@ -1,0 +1,80 @@
+
+> journal-app@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.2.4 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://10.179.24.75:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+Creating turbopack project { dir: 'C:\\Users\\Lenovo\\JotFlow', testMode: true }
+ ✓ Compiled in 760ms
+ ✓ Ready in 2.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.8s
+ GET / 200 in 4547ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 19.8s
+ GET /dashboard 500 in 27921ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1659ms
+ GET /favicon.ico 200 in 1431ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 2071ms
+   Reload env: .env.local
+ GET /dashboard 200 in 3811ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 296ms
+ POST /dashboard 200 in 1033ms
+ GET / 200 in 989ms
+ POST /dashboard 200 in 2647ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 483ms
+ GET / 200 in 762ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 358ms
+ ○ Compiling /sign-in/[[...sign-in]] ...
+ ✓ Compiled /sign-in/[[...sign-in]] in 5s
+ GET /sign-in 200 in 8308ms
+ ○ Compiling /sign-up/[[...sign-up]] ...
+ ✓ Compiled /sign-up/[[...sign-up]] in 5.1s
+ GET /sign-up 200 in 7708ms
+ GET /sign-up 200 in 632ms
+ GET /sign-up?sign_up_force_redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3000%2F&after_sign_in_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&after_sign_up_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&redirect_url=http%3A%2F%2Flocalhost%3A3000%2F 200 in 1121ms
+ GET /sign-up/SignUp_clerk_catchall_check_1780939790276 200 in 1696ms
+ GET /sign-up 200 in 2239ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 454ms
+ GET /sign-up?sign_up_force_redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3000%2F&after_sign_in_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&after_sign_up_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&redirect_url=http%3A%2F%2Flocalhost%3A3000%2F 200 in 948ms
+ GET /sign-up/SignUp_clerk_catchall_check_1780939793880 200 in 1141ms
+ GET /sign-up 200 in 405ms
+ GET /sign-up/sso-callback?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3000%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3000%2F&after_sign_in_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&after_sign_up_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard 200 in 946ms
+ GET /sign-up/sso-callback/SignUp_clerk_catchall_check_1780939809131 200 in 744ms
+ POST /sign-up/sso-callback?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3000%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3000%2F&after_sign_in_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&after_sign_up_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard 200 in 513ms
+ GET / 200 in 532ms
+ GET / 200 in 2091ms
+ ○ Compiling /journal/write ...
+ ✓ Compiled /journal/write in 12.1s
+ GET /journal/write 200 in 12724ms
+ GET /journal/write 200 in 599ms
+ POST /journal/write 200 in 1627ms
+ POST /journal/write 200 in 1607ms
+ POST /journal/write 200 in 1077ms
+ POST /journal/write 200 in 984ms
+ ○ Compiling /collection/[collectionId] ...
+ POST /journal/write 200 in 6996ms
+ POST /journal/write 200 in 3229ms
+ GET /dashboard 200 in 2593ms
+ GET /dashboard 200 in 2973ms
+ ✓ Compiled /collection/[collectionId] in 12s
+ POST /dashboard 200 in 2418ms
+ POST /dashboard 200 in 1780ms
+ GET /collection/unorganized 200 in 17675ms
+ GET /dashboard 200 in 1678ms
+ GET / 200 in 558ms
+ GET /dashboard 200 in 2654ms
+ POST /dashboard 200 in 1481ms
+ POST /dashboard 200 in 1198ms
+ GET / 200 in 1157ms
+ POST /dashboard 200 in 4592ms
+ GET / 200 in 920ms
+   Reload env: .env
+   Reload env: .env
+ GET / 200 in 1511ms
+ GET / 200 in 333ms

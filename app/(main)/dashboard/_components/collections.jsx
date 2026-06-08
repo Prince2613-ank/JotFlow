@@ -19,11 +19,8 @@ const Collections = ({ collections = [], entriesByCollection }) => {
   useEffect(() => {
     if (createdCollection) {
       setIsCollectionDialogOpen(false);
-      fetchCollections(); // Refresh collections list
       toast.success(`Collection ${createdCollection.name} created!`);
     }
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [createdCollection, createCollectionLoading]);
 
   const handleCreateCollection = async (data) => {
